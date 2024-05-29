@@ -33,7 +33,7 @@
                 },
                 {
                     "name": "circle diameter ",
-                    "ioValue": 7
+                    "ioValue": 5
                 },
                 {
                     "name": "x",
@@ -67,11 +67,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 7
+                            "ioValue": 5
                         },
                         {
                             "name": "y length",
-                            "ioValue": 7
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -92,7 +92,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 7
+                            "ioValue": 5
                         }
                     ],
                     "currentEquation": "x/2"
@@ -110,11 +110,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 3.5
+                            "ioValue": 2.5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 3.5
+                            "ioValue": 2.5
                         },
                         {
                             "name": "zDist",
@@ -164,7 +164,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 7
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -468,7 +468,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 6
+                    "ioValue": 16
                 }
             ]
         },
