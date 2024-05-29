@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": 1717018362961,
-            "ioValue": 25
+            "ioValue": 33
         }
     ],
     "topLevel": true,
@@ -16,7 +16,7 @@
             "atomType": "Input",
             "name": 1717018362961,
             "x": 0.013333333333333334,
-            "y": 0.5360501567398119,
+            "y": 0.5391849529780565,
             "uniqueID": 1717018362961,
             "ioValues": []
         },
@@ -24,12 +24,20 @@
             "atomType": "GitHubMolecule",
             "name": "Round Corner cut-out",
             "x": 0.4905660377358491,
-            "y": 0.4639498432601881,
+            "y": 0.4796238244514106,
             "uniqueID": 1717018322612,
             "ioValues": [
                 {
+                    "name": "y",
+                    "ioValue": 0
+                },
+                {
                     "name": "cutout height",
-                    "ioValue": 25
+                    "ioValue": 33
+                },
+                {
+                    "name": "rotation",
+                    "ioValue": 0
                 },
                 {
                     "name": "circle diameter ",
@@ -37,14 +45,6 @@
                 },
                 {
                     "name": "x",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y",
-                    "ioValue": 0
-                },
-                {
-                    "name": "rotation",
                     "ioValue": 0
                 }
             ],
@@ -189,7 +189,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 25
+                            "ioValue": 33
                         }
                     ]
                 },
@@ -206,7 +206,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 25
+                            "ioValue": 33
                         }
                     ]
                 },
@@ -462,13 +462,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.44234800838574423,
-            "y": 0.761755485893417,
+            "x": 0.45255972696245733,
+            "y": 0.7962382445141066,
             "uniqueID": 1717018429192,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 12
+                    "ioValue": 33
                 }
             ]
         },
@@ -478,7 +478,105 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717009554395,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1717018859044
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Scale ",
+            "x": 0.668259385665529,
+            "y": 0.6677115987460814,
+            "uniqueID": 1717018859044,
+            "ioValues": [
+                {
+                    "name": "scale",
+                    "ioValue": 0.5
+                },
+                {
+                    "name": "shape",
+                    "ioValue": 1717018429192
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "scale",
+                    "x": 0.013333333333333334,
+                    "y": 0.3730407523510972,
+                    "uniqueID": 1717018859621,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "shape",
+                    "x": 0.013333333333333334,
+                    "y": 0.5297805642633229,
+                    "uniqueID": 1717018858852,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.6972972972972973,
+                    "y": 0.4231974921630094,
+                    "uniqueID": 1717018859141,
+                    "ioValues": [
+                        {
+                            "name": "shape",
+                            "ioValue": 1717018429192
+                        },
+                        {
+                            "name": "scale",
+                            "ioValue": 0.5
+                        }
+                    ],
+                    "code": "//Inputs:[shape, scale];\nconsole.log(shape)\nconsole.log(scale)\n\nreturn [library[shape].geometry[0].clone().scale(scale)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n"
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1717018858937,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1717018859141
+                        }
+                    ]
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "scale",
+                    "ap2Primary": false,
+                    "ap1ID": 1717018859621,
+                    "ap2ID": 1717018859141
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "shape",
+                    "ap2Primary": false,
+                    "ap1ID": 1717018858852,
+                    "ap2ID": 1717018859141
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1717018859141,
+                    "ap2ID": 1717018858937
+                }
+            ],
+            "gitHubUniqueID": 801687224,
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
         }
     ],
     "allConnectors": [
@@ -488,6 +586,27 @@
             "ap2Primary": false,
             "ap1ID": 1717018362961,
             "ap2ID": 1717018322612
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1717018362961,
+            "ap2ID": 1717018429192
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "shape",
+            "ap2Primary": false,
+            "ap1ID": 1717018429192,
+            "ap2ID": 1717018859044
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1717018859044,
+            "ap2ID": 1717009554395
         }
     ],
     "unitsIndex": 0,
