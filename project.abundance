@@ -17,24 +17,89 @@
         },
         {
             "atomType": "GitHubMolecule",
-            "name": "development-test",
-            "x": 0.6048218029350104,
-            "y": 0.677115987460815,
-            "uniqueID": 1717013454901,
-            "ioValues": [],
+            "name": "Scale ",
+            "x": 0.5136268343815513,
+            "y": 0.5579937304075235,
+            "uniqueID": 1717013674430,
+            "ioValues": [
+                {
+                    "name": "scale",
+                    "ioValue": 10
+                },
+                {
+                    "name": "shape",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "scale",
+                    "x": 0.013333333333333334,
+                    "y": 0.3730407523510972,
+                    "uniqueID": 1717013674743,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "shape",
+                    "x": 0.013333333333333334,
+                    "y": 0.5297805642633229,
+                    "uniqueID": 1717013674312,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.6972972972972973,
+                    "y": 0.4231974921630094,
+                    "uniqueID": 1717013674730,
+                    "ioValues": [
+                        {
+                            "name": "shape",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "scale",
+                            "ioValue": 10
+                        }
+                    ],
+                    "code": "//Inputs:[shape, scale];\nconsole.log(shape)\nconsole.log(scale)\n\nreturn [library[shape].geometry[0].clone().scale(scale)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n"
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.98,
                     "y": 0.5,
-                    "uniqueID": 1717013454569,
+                    "uniqueID": 1717013674256,
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
-            "gitHubUniqueID": 807784051,
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "scale",
+                    "ap2Primary": false,
+                    "ap1ID": 1717013674743,
+                    "ap2ID": 1717013674730
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "shape",
+                    "ap2Primary": false,
+                    "ap1ID": 1717013674312,
+                    "ap2ID": 1717013674730
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1717013674730,
+                    "ap2ID": 1717013674256
+                }
+            ],
+            "gitHubUniqueID": 801687224,
             "unitsIndex": 0,
             "fileTypeVersion": 1
         }
