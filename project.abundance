@@ -6,7 +6,16 @@
     "uniqueID": 1717009545007,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1717009554395,
+            "ioValues": []
+        }
+    ],
     "allConnectors": [],
     "unitsIndex": 0,
     "filetypeVersion": 1
