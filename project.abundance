@@ -8,14 +8,6 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1717009554395,
-            "ioValues": []
-        },
-        {
             "atomType": "GitHubMolecule",
             "name": "Scale ",
             "x": 0.5136268343815513,
@@ -102,6 +94,14 @@
             "gitHubUniqueID": 801687224,
             "unitsIndex": 0,
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1717009554395,
+            "ioValues": []
         }
     ],
     "allConnectors": [],
