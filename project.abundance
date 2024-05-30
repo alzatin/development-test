@@ -83,23 +83,6 @@
             ]
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.7979910714285714,
-            "y": 0.5109717868338558,
-            "uniqueID": 1717032030899,
-            "ioValues": [
-                {
-                    "name": "3D shape 3",
-                    "ioValue": 1717032017865
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 1717032024310
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.45424107142857145,
@@ -134,6 +117,23 @@
                 "costUSD": 0,
                 "source": "www.example.com"
             }
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7979910714285714,
+            "y": 0.5109717868338558,
+            "uniqueID": 1717032030899,
+            "ioValues": [
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1717032017865
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 1717032024310
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -187,13 +187,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1717032030899,
-            "ap2ID": 1717009554395
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1717032077522,
@@ -205,6 +198,13 @@
             "ap2Primary": false,
             "ap1ID": 1717032024310,
             "ap2ID": 1717032030899
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1717032030899,
+            "ap2ID": 1717009554395
         }
     ],
     "unitsIndex": 0,
