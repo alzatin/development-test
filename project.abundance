@@ -83,6 +83,36 @@
             ]
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7410901467505241,
+            "y": 0.2664576802507837,
+            "uniqueID": 1717032030899,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1717032017865
+                }
+            ]
+        },
+        {
+            "atomType": "Tag",
+            "name": "Add Tag",
+            "x": 0.6215932914046122,
+            "y": 0.5047021943573667,
+            "uniqueID": 1717032999149,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1717032071655
+                },
+                {
+                    "name": "tag",
+                    "ioValue": "Tag String"
+                }
+            ]
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.44549266247379454,
@@ -119,19 +149,6 @@
             }
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.7410901467505241,
-            "y": 0.2664576802507837,
-            "uniqueID": 1717032030899,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": 1717032017865
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
@@ -141,23 +158,6 @@
                 {
                     "name": "number or geometry",
                     "ioValue": 1717032030899
-                }
-            ]
-        },
-        {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.6215932914046122,
-            "y": 0.5047021943573667,
-            "uniqueID": 1717032999149,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1717032071655
-                },
-                {
-                    "name": "tag",
-                    "ioValue": "Tag String"
                 }
             ]
         }
@@ -207,17 +207,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1717032077522,
-            "ap2ID": 1717032024310
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 1717032030899,
             "ap2ID": 1717009554395
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1717032077522,
+            "ap2ID": 1717032024310
         }
     ],
     "unitsIndex": 0,
