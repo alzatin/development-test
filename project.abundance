@@ -26,14 +26,6 @@
             ]
         },
         {
-            "atomType": "Input",
-            "name": 1717018362961,
-            "x": 0.013333333333333334,
-            "y": 0.5454545454545455,
-            "uniqueID": 1717018362961,
-            "ioValues": []
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
             "x": 0.36058700209643607,
@@ -49,6 +41,14 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Input",
+            "name": 1717018362961,
+            "x": 0.013333333333333334,
+            "y": 0.5454545454545455,
+            "uniqueID": 1717018362961,
+            "ioValues": []
         },
         {
             "atomType": "Add-BOM-Tag",
@@ -175,13 +175,6 @@
             "ap2ID": 1717032071655
         },
         {
-            "ap1Name": "number or geometry",
-            "ap2Name": "diameter",
-            "ap2Primary": false,
-            "ap1ID": 1717018362961,
-            "ap2ID": 1717018429192
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -201,6 +194,13 @@
             "ap2Primary": false,
             "ap1ID": 1717032071655,
             "ap2ID": 1717032030899
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 1717018362961,
+            "ap2ID": 1717018429192
         },
         {
             "ap1Name": "geometry",
