@@ -7,7 +7,7 @@
     "ioValues": [
         {
             "name": 1717018362961,
-            "ioValue": 11
+            "ioValue": 15
         }
     ],
     "topLevel": true,
@@ -25,7 +25,7 @@
                 },
                 {
                     "name": "cutout height",
-                    "ioValue": 11
+                    "ioValue": 15
                 },
                 {
                     "name": "rotation",
@@ -33,7 +33,7 @@
                 },
                 {
                     "name": "circle diameter ",
-                    "ioValue": 5
+                    "ioValue": 14
                 },
                 {
                     "name": "x",
@@ -67,11 +67,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 5
+                            "ioValue": 14
                         },
                         {
                             "name": "y length",
-                            "ioValue": 5
+                            "ioValue": 14
                         }
                     ]
                 },
@@ -92,7 +92,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 5
+                            "ioValue": 14
                         }
                     ],
                     "currentEquation": "x/2"
@@ -110,11 +110,11 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 2.5
+                            "ioValue": 7
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 2.5
+                            "ioValue": 7
                         },
                         {
                             "name": "zDist",
@@ -164,7 +164,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 5
+                            "ioValue": 14
                         }
                     ]
                 },
@@ -181,7 +181,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 11
+                            "ioValue": 15
                         }
                     ]
                 },
@@ -198,7 +198,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 11
+                            "ioValue": 15
                         }
                     ]
                 },
@@ -481,7 +481,7 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 11
+                    "ioValue": 15
                 }
             ]
         },
