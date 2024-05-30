@@ -85,14 +85,10 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.740041928721174,
-            "y": 0.2664576802507837,
+            "x": 0.7979910714285714,
+            "y": 0.5109717868338558,
             "uniqueID": 1717032030899,
             "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 1717032071655
-                },
                 {
                     "name": "3D shape 3",
                     "ioValue": 1717032017865
@@ -104,27 +100,10 @@
             ]
         },
         {
-            "atomType": "Tag",
-            "name": "Add Tag",
-            "x": 0.6215932914046122,
-            "y": 0.5047021943573667,
-            "uniqueID": 1717032999149,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1717032071655
-                },
-                {
-                    "name": "tag",
-                    "ioValue": "Tag String"
-                }
-            ]
-        },
-        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.44549266247379454,
-            "y": 0.6802507836990596,
+            "x": 0.45424107142857145,
+            "y": 0.5579937304075235,
             "uniqueID": 1717032077522,
             "ioValues": [
                 {
@@ -151,7 +130,7 @@
             ],
             "BOMitem": {
                 "BOMitemName": "name",
-                "numberNeeded": 1,
+                "numberNeeded": 2,
                 "costUSD": 0,
                 "source": "www.example.com"
             }
@@ -184,20 +163,6 @@
             "ap2Primary": true,
             "ap1ID": 1717032071655,
             "ap2ID": 1717032017865
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 1717032071655,
-            "ap2ID": 1717032999149
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 2",
-            "ap2Primary": false,
-            "ap1ID": 1717032071655,
-            "ap2ID": 1717032030899
         },
         {
             "ap1Name": "number or geometry",
