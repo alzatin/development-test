@@ -85,7 +85,7 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7410901467505241,
+            "x": 0.740041928721174,
             "y": 0.2664576802507837,
             "uniqueID": 1717032030899,
             "ioValues": [
@@ -96,6 +96,10 @@
                 {
                     "name": "3D shape 3",
                     "ioValue": 1717032017865
+                },
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 1717032024310
                 }
             ]
         },
@@ -229,6 +233,13 @@
             "ap2Primary": true,
             "ap1ID": 1717032077522,
             "ap2ID": 1717032024310
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 1717032024310,
+            "ap2ID": 1717032030899
         }
     ],
     "unitsIndex": 0,
