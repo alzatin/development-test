@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|undefined|NaN|$NaN||
-|Total: |NaN|$NaN| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $NaN
+ 3xCOG MSRP: $0.00
