@@ -15,8 +15,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.18452380952380953,
-            "y": 0.3385579937304075,
+            "x": 0.18948412698412698,
+            "y": 0.32601880877742945,
             "uniqueID": 1717019196723,
             "ioValues": [
                 {
@@ -175,8 +175,7 @@
                     "name": "3D shape 17",
                     "ioValue": ""
                 }
-            ],
-            "closedSelection": 0
+            ]
         },
         {
             "atomType": "Circle",
@@ -194,8 +193,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.8493013972055887,
-            "y": 0.3730407523510972,
+            "x": 0.8422619047619048,
+            "y": 0.36363636363636365,
             "uniqueID": 1717032030899,
             "ioValues": [
                 {
@@ -249,7 +248,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": 1717252882970
+                    "ioValue": 1717032030899
                 }
             ]
         }
@@ -320,17 +319,17 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 1717252882970,
-            "ap2ID": 1717009554395
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 1717018429192,
             "ap2ID": 1717032077522
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1717032030899,
+            "ap2ID": 1717009554395
         },
         {
             "ap1Name": "geometry",
