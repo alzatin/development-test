@@ -43,14 +43,6 @@
             ]
         },
         {
-            "atomType": "Input",
-            "name": 1717018362961,
-            "x": 0.013333333333333334,
-            "y": 0.5454545454545455,
-            "uniqueID": 1717018362961,
-            "ioValues": []
-        },
-        {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
             "x": 0.5049900199600799,
@@ -68,6 +60,14 @@
                 "costUSD": 0,
                 "source": "www.example.com"
             }
+        },
+        {
+            "atomType": "Input",
+            "name": 1717018362961,
+            "x": 0.013333333333333334,
+            "y": 0.5454545454545455,
+            "uniqueID": 1717018362961,
+            "ioValues": []
         },
         {
             "atomType": "Move",
@@ -93,40 +93,6 @@
                     "ioValue": 0
                 }
             ]
-        },
-        {
-            "atomType": "Hull",
-            "name": "Hull",
-            "x": 0.6347305389221557,
-            "y": 0.6238244514106583,
-            "uniqueID": 1717252882970,
-            "ioValues": [
-                {
-                    "name": "3D shape 9",
-                    "ioValue": 1717255518616
-                },
-                {
-                    "name": "3D shape 12",
-                    "ioValue": 1717019196723
-                },
-                {
-                    "name": "3D shape 13",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 9",
-                    "ioValue": 1717255518616
-                },
-                {
-                    "name": "3D shape 12",
-                    "ioValue": 1717019196723
-                },
-                {
-                    "name": "3D shape 13",
-                    "ioValue": ""
-                }
-            ],
-            "closedSelection": 0
         },
         {
             "atomType": "Move",
@@ -169,6 +135,40 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Hull",
+            "name": "Hull",
+            "x": 0.6347305389221557,
+            "y": 0.6238244514106583,
+            "uniqueID": 1717252882970,
+            "ioValues": [
+                {
+                    "name": "3D shape 9",
+                    "ioValue": 1717255518616
+                },
+                {
+                    "name": "3D shape 12",
+                    "ioValue": 1717019196723
+                },
+                {
+                    "name": "3D shape 13",
+                    "ioValue": ""
+                },
+                {
+                    "name": "3D shape 9",
+                    "ioValue": 1717255518616
+                },
+                {
+                    "name": "3D shape 12",
+                    "ioValue": 1717019196723
+                },
+                {
+                    "name": "3D shape 13",
+                    "ioValue": ""
+                }
+            ],
+            "closedSelection": 0
         },
         {
             "atomType": "Circle",
@@ -238,12 +238,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717009554395,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1717252882970
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -269,13 +264,6 @@
             "ap2ID": 1717032017865
         },
         {
-            "ap1Name": "number or geometry",
-            "ap2Name": "diameter",
-            "ap2Primary": false,
-            "ap1ID": 1717018362961,
-            "ap2ID": 1717019196723
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "3D shape 3",
             "ap2Primary": false,
@@ -283,11 +271,11 @@
             "ap2ID": 1717032030899
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
             "ap2Primary": false,
-            "ap1ID": 1717252882970,
-            "ap2ID": 1717009554395
+            "ap1ID": 1717018362961,
+            "ap2ID": 1717019196723
         },
         {
             "ap1Name": "geometry",
