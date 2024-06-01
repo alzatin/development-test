@@ -168,8 +168,8 @@
         {
             "atomType": "Hull",
             "name": "Hull",
-            "x": 0.6317365269461078,
-            "y": 0.4670846394984326,
+            "x": 0.656686626746507,
+            "y": 0.4012539184952978,
             "uniqueID": 1717252882970,
             "ioValues": [
                 {
@@ -178,6 +178,10 @@
                 },
                 {
                     "name": "3D shape 2",
+                    "ioValue": 1717254043366
+                },
+                {
+                    "name": "3D shape 3",
                     "ioValue": ""
                 },
                 {
@@ -186,10 +190,39 @@
                 },
                 {
                     "name": "3D shape 2",
+                    "ioValue": 1717254043366
+                },
+                {
+                    "name": "3D shape 3",
                     "ioValue": ""
                 }
             ],
             "closedSelection": 0
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.3962075848303393,
+            "y": 0.7648902821316614,
+            "uniqueID": 1717254043366,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1717019196723
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 20
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -206,6 +239,13 @@
             "ap2Primary": false,
             "ap1ID": 1717019196723,
             "ap2ID": 1717252882970
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1717019196723,
+            "ap2ID": 1717254043366
         },
         {
             "ap1Name": "geometry",
@@ -255,6 +295,13 @@
             "ap2Primary": false,
             "ap1ID": 1717032030899,
             "ap2ID": 1717009554395
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1717254043366,
+            "ap2ID": 1717252882970
         }
     ],
     "unitsIndex": 0,
