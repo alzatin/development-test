@@ -186,8 +186,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.8512974051896207,
-            "y": 0.3730407523510972,
+            "x": 0.8493013972055887,
+            "y": 0.3667711598746081,
             "uniqueID": 1717032030899,
             "ioValues": [
                 {
@@ -238,12 +238,7 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717009554395,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1717032030899
-                }
-            ]
+            "ioValues": []
         }
     ],
     "allConnectors": [
