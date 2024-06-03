@@ -8,28 +8,117 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.10416666666666667,
-            "y": 0.37931034482758624,
-            "uniqueID": 1717019196723,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 50
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717009554395,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1717438687710
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.38591269841269843,
+            "y": 0.567398119122257,
+            "uniqueID": 1717438686263,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.621031746031746,
+            "y": 0.5736677115987461,
+            "uniqueID": 1717438687710,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1717438686263
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1717438696035
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1717438701336
+                }
+            ]
+        },
+        {
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.373015873015873,
+            "y": 0.34796238244514105,
+            "uniqueID": 1717438696035,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
+            "atomType": "RegularPolygon",
+            "name": "RegularPolygon",
+            "x": 0.5257936507936508,
+            "y": 0.4263322884012539,
+            "uniqueID": 1717438701336,
+            "ioValues": [
+                {
+                    "name": "number of sides",
+                    "ioValue": 6
+                },
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1717438686263,
+            "ap2ID": 1717438687710
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1717438687710,
+            "ap2ID": 1717009554395
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
+            "ap2Primary": false,
+            "ap1ID": 1717438696035,
+            "ap2ID": 1717438687710
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1717438701336,
+            "ap2ID": 1717438687710
+        }
+    ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "filetypeVersion": 1
