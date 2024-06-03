@@ -10,21 +10,21 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.19345238095238093,
-            "y": 0.3166144200626959,
+            "x": 0.10416666666666667,
+            "y": 0.37931034482758624,
             "uniqueID": 1717019196723,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 10
+                    "ioValue": 50
                 }
             ]
         },
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.36058700209643607,
-            "y": 0.2601880877742947,
+            "x": 0.35912698412698413,
+            "y": 0.25705329153605017,
             "uniqueID": 1717032071655,
             "ioValues": [
                 {
@@ -59,8 +59,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.185515873015873,
-            "y": 0.5956112852664577,
+            "x": 0.2916666666666667,
+            "y": 0.5015673981191223,
             "uniqueID": 1717254043366,
             "ioValues": [
                 {
@@ -84,8 +84,8 @@
         {
             "atomType": "Hull",
             "name": "Hull",
-            "x": 0.5783730158730159,
-            "y": 0.4796238244514106,
+            "x": 0.5773809523809523,
+            "y": 0.5047021943573667,
             "uniqueID": 1717252882970,
             "ioValues": [
                 {
@@ -134,8 +134,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.7123015873015873,
-            "y": 0.4952978056426332,
+            "x": 0.7152777777777778,
+            "y": 0.5454545454545455,
             "uniqueID": 1717263876408,
             "ioValues": [
                 {
@@ -151,8 +151,8 @@
         {
             "atomType": "Move",
             "name": "Move",
-            "x": 0.46230158730158727,
-            "y": 0.755485893416928,
+            "x": 0.4563492063492064,
+            "y": 0.7366771159874608,
             "uniqueID": 1717255518616,
             "ioValues": [
                 {
@@ -189,21 +189,17 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.8908730158730158,
+            "x": 0.886904761904762,
             "y": 0.4608150470219436,
             "uniqueID": 1717032030899,
             "ioValues": [
                 {
-                    "name": "3D shape 4",
-                    "ioValue": 1717032017865
-                },
-                {
-                    "name": "3D shape 6",
-                    "ioValue": 1717032024310
-                },
-                {
                     "name": "3D shape 8",
                     "ioValue": 1717263876408
+                },
+                {
+                    "name": "3D shape 9",
+                    "ioValue": 1717032017865
                 }
             ]
         },
@@ -227,8 +223,8 @@
         {
             "atomType": "Add-BOM-Tag",
             "name": "Add BOM Tag",
-            "x": 0.6367265469061876,
-            "y": 0.884012539184953,
+            "x": 0.701388888888889,
+            "y": 0.8683385579937305,
             "uniqueID": 1717032024310,
             "ioValues": [
                 {
@@ -238,7 +234,7 @@
             ],
             "BOMitem": {
                 "BOMitemName": "name",
-                "numberNeeded": 2,
+                "numberNeeded": 4,
                 "costUSD": 0,
                 "source": "www.example.com"
             }
@@ -281,7 +277,7 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
+            "ap2Name": "3D shape 9",
             "ap2Primary": false,
             "ap1ID": 1717032017865,
             "ap2ID": 1717032030899
@@ -341,13 +337,6 @@
             "ap2Primary": true,
             "ap1ID": 1717032077522,
             "ap2ID": 1717032024310
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 6",
-            "ap2Primary": false,
-            "ap1ID": 1717032024310,
-            "ap2ID": 1717032030899
         }
     ],
     "unitsIndex": 0,
